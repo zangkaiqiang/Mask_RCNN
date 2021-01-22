@@ -13,7 +13,7 @@ python3 nucleus.py train --dataset=/path/to/dataset --subset=train --weights=ima
 
 Train a new model starting from specific weights file using the full `stage1_train` dataset
 ```
-python3 nucleus.py train --dataset=/path/to/dataset --subset=stage1_train --weights=/path/to/weights.h5
+python3 nucleus.py train --dataset=dataset/nucleus --subset=stage1_train --weights=/path/to/weights.h5
 ```
 
 Resume training a model that you had trained earlier
