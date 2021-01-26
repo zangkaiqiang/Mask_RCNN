@@ -29,6 +29,9 @@ Usage: import the module (see Jupyter notebooks for examples), or run from
 # This has to be done before other importa that might
 # set it, but only if we're running in script mode
 # rather than being imported.
+import warnings
+warnings.filterwarnings("ignore")
+
 if __name__ == '__main__':
     import matplotlib
     # Agg backend runs without a display
